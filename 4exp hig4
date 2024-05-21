@@ -1,0 +1,8 @@
+def nth_square_and_cube(n):
+    return (n ** 6)
+
+n = int(input("Enter the value of n: "))
+
+
+result = nth_square_and_cube(n)
+print(f"The {n}-th number which is both a square and a cube is: {result}")
